@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/site/', // This must match the name after the slash in your GitHub URL
-})
+  base: "/", // Use "/" for the custom domain: taggiez.com
+});
